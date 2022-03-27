@@ -5,7 +5,6 @@ import * as React from 'react'
 
 function Counter({initialCount = 0, step = 1}) {
   const countReducer = (previousCount, newCount) => {
-    console.log(previousCount, newCount)
     return newCount
   }
 
